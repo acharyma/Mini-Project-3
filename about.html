@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body>
+        <script defer src="main.js" type="module"></script>
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <h1>About the Project</h1>
+        <a href=".\Index.html" id="fillbutton">Visualization Page</a>
+        <div><h2>A brief project information: Motivations: design rationale for visual encoding decisions and:  interaction techniques, takeaways, etc:</h2>
+        <p>
+            For our third mini-project, we are planning to switch our focus from mini-project 2 to a more humanitarian/political/economic type of dataset, this became about because like we have stated in our progress report, while playing around with Tableau and looking at the UN list of Developing and Underdeveloped countries, one of us mentioned that some of these UN classifications seemed a bit arbitrary, if not even western-centric, with nations like China being listed as underdeveloped so it urged us to indulge more with the topic. 
+<br><br>Moreover, after we were able to get this data, questions we stated in the progress report became our source of motivation to better understand the dataset structure and also to verify and learn different occurrences and implications when it comes to agriculture and its impact in other sectors in general.<br><br>
+We thought scatter plot is a great format for this visualization because we wanted to show the status of each country while at the same time being able to compare and contrast one country’s agriculture GDP to another country’s agriculture GDP.<br>
+<br>In addition, for the scatter plot we wanted to give the user flexibility based on their knowledge of the world to be able to see how a specific country is doing by using brush. By doing this we are able to give the user more data for that specific country conveying the change in Agricultural GDP in its history.
+<br><br>Furthermore, we have also added another visualization consisting of a graphical representation of the world. Where in this case, unlike the scatter plot, a user is better suited to see, if there is any, geographical implication on a country’s stated development level. Hence, further understanding will be available in regards to agriculture and weather, agriculture and altitude, agriculture within a country close or near to a desert Vs agriculture within a country with favourable environmental conditions.  
+we thought might be indicative of a shift from underdeveloped to developing classifications and so one of our earlier designs via Tableau is this visualization displaying change in agricultural value (% of GDP) 
+<br><br>Our most recent sketch is built upon the idea of filtering based off development level, but also incorporates a zoom and lasso selection in which readers will be able to look at outliers and their attributes. This will allow us to explain some of these outliers themselves, potentially with some historical research to supplement the indicators present in the Databank dataset. </div>
+<div><h2>A brief info about the design and development process: alternatives tried (e.g., sketches), struggles, lessoned learned. Also mention how the workload was distributed among team members.</h2></div>
+<span><img src='.\Sketches1.jpg' height=30%; width=30%></img><img src='.\Sketches2.jpg' height=50%; width=30%; vertical-align=top;><img src='.\Sketches3.jpg' width=30%; height=30%;></span>
+        </p><p>In this project one thing that was not in our initial design but later was able to incorporate is the world map visualization. Doing this came because we saw that the world map visualization provides another perspective to users in understanding the presented data better. 
+
+            In addition, one thing that we had to scratch off from our initial visualization sketches is the slider interaction which is present in the first picture of the sketches. 
+            </p>
+            <p>For our initial sketches we had a slider to show the statistics for agriculture percent added to the GDP by each of the countries depending on if they were: 1) developing countries, 2) transitioning countries, or 3) developed countries. Although the slider was a good idea at the time, we realized that a better implementation would be to have all three on the same scatter plot but use different colors to better see the trends on agriculture percent added to the GDP vs the sum of manufacturing and industry percent added to the GDP. 
+                We were initially going to add a line chart based on the graph that was brushed over, but we ran into errors while adding two dimensional brushing. Due to the deadline approaching fast, we decided to instead create a map of the world allowing users to look at the different data and made it so that it revealed the country's status and GDP information after clicking on a country. We wanted the users to challenge themselves and added this interactive feature to the user should they be interested in it. We also added the feature to 
+                reveal all because we want to be aware that some people might be looking for information in a hurry, so to be courteous to that scenario, we added a reveal all feature.</p>
+    </div>
+        </body>
+</head>
