@@ -1,0 +1,51 @@
+h1{
+    font-size:40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#map{
+    padding-right: 2.5%;
+}
+#QOL{
+    width: 30%;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    background-color: azure;
+    border-style: dotted;
+    text-align: center;
+    padding: 1%;
+}
+#fill{
+    width:20%;
+    height:10%;
+    position: relative;
+    margin-left: 5%;
+    margin-top:5%;
+}
+#selectbutton{
+    position: relative;
+    width:20%;
+    height:10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: white;
+    border-color: black;
+}
+ul{
+    font-size: 20px;
+}
+body{
+    background-color: tan;
+}
+#scatter{
+    margin-top:5%;
+    width: 750px;
+    height: 550px;
+    background-color: azure;
+}
